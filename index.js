@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const Util = require("util");
+const Util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown")
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -27,24 +27,35 @@ function promptUser(){
    },
    {
     type: "input",
-    message: "What are the installation instructions for your project?",
-    name: "installation",
+    message: "What is the user story?",
+    name: "userStory",
+   },
+   {
+    type: "Input",
+    message: "What is the acceptance criteria?",
+    name:"acceptanceCriteria",
    },
    {
     type: "input",
-    message: "What is the link to clone the repo?",
-    name: "clone",
+    message: "What are the installation instructions for your project?",
+    name: "installation",
    },
    {
     type:"list",
     name: "license",
     message: "Please select the license you used for this project?",
     choices: [
-        "MIT",
-        "Apache",
-        "Boost",
-       ],
-   },
+       "Apache",
+       "Academic",
+       "GNU",
+       "ISC",
+       "MIT",
+       "Mozilla",
+       "Open" 
+        
+    ]  
+    },
+
    {
     type:"input",
     message: "Please enter any testing protocols you used for this project",
@@ -60,21 +71,7 @@ function promptUser(){
     name: "userName",
     message: "What is your GitHub username?",
    },
-   {
-    type: "input",
-    name: "userEmail",
-    message: "What is your email?",
-   },
-   {
-    type: "input", 
-    name: "URL", 
-    message: "Waht is the URL of the live site?",
-   },
-   {
-    type: "input",
-    name: "repo",
-    message: "What is the URL of the GitHub repo?",
-   }
+   
   ]);
 }
 
