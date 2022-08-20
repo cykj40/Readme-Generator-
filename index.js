@@ -25,11 +25,7 @@ function promptUser(){
     message: "Please tell us about your project",
     name: "about",
    },
-   {
-    type: "input",
-    message: "What is the user story?",
-    name: "userStory",
-   },
+  
    {
     type: "input",
     message: "What are the installation instructions for your project?",
@@ -55,6 +51,16 @@ function promptUser(){
     type:"input",
     message: "Please enter any testing protocols you used for this project",
     name: "test",
+    },
+    {
+      type: "input",
+      message: "Please list all contributers to this project?",
+      name: "contributers",
+    },
+    {
+      type: "input",
+      message: "what do I do if I have an issue with your project?",
+      name: "questions",
     },
    {
     type: "input",
