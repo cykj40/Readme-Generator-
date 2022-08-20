@@ -21,25 +21,7 @@ function generateMarkdown(answers) {
   ${answers.description}
 
   ## Table of Contents
-  - [Description](#description)
-  
-  - [about](#about)
-  
-  - [User Story](#userstory)
-  
-  - [Accepatance Criteria](#acceptancecriteria)
-  -
-  - [Screenshots](#screenshots)
-  
-  - [Installation](#installation)
-  
-  - [License](#license)
-  
-  - [Test](#test)
-  
-  - [Contributers](#Contributers)
-  
-  - [Questions](#questions)
+ 
 
   ## About
   ${answers.about}
