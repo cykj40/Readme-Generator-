@@ -24,7 +24,6 @@ function generateMarkdown(answers) {
   -[Description](#description)
   -[about](#about)
   -[userStory](#userStory)
-  -[acceptanceCriteria](#acceptanceCriteria)
   -[Installation](#installation)
   -[License](#license)
   -[Test](#test)
@@ -36,8 +35,7 @@ function generateMarkdown(answers) {
   ## User Story
   ${answers.userStory}
 
-  ## Acceptance Criteria
-  ${answers.acceptanceCriteria}
+ 
   
   ## Installation
   ${answers.installation}
@@ -60,4 +58,5 @@ This Readme was made by 🚀 ${answers.author} ⚡
 `;
 }
 
-module.exports = generateMarkdown;
+
+module.exports =generateMarkdown;

@@ -9,15 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.5.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cykj40/Readme-Generator-.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/cykj40/Readme-Generator-/issues"
-  },
-  "homepage": "https://github.com/cykj40/Readme-Generator-#readme"
+    "inquirer": "^6.3.1"
+  }
 }

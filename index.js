@@ -31,11 +31,6 @@ function promptUser(){
     name: "userStory",
    },
    {
-    type: "Input",
-    message: "What is the acceptance criteria?",
-    name:"acceptanceCriteria",
-   },
-   {
     type: "input",
     message: "What are the installation instructions for your project?",
     name: "installation",
@@ -85,7 +80,7 @@ function promptUser(){
 async function init() {
    try{
     const answers = await promptUser();
-    const generateContent = generateReadme(answers);
+    const generateContent = generateMarkdown(answers);
     await writeFileAsync('./dist/README.md', generateContent);
     console.log('🚀 Wrote to README.md');
    } catch(err) {
@@ -96,3 +91,4 @@ async function init() {
 
 // Function call to initialize app
 init();
+
