@@ -21,14 +21,25 @@ function generateMarkdown(answers) {
   ${answers.description}
 
   ## Table of Contents
-  -[Description](#description)
-  -[about](#about)
-  -[Screenshots](#screenshots)
-  -[Installation](#installation)
-  -[License](#license)
-  -[Test](#test)
-  -[Contributers](#Contributers)
-  -[Questions](#questions)
+  - [Description](#description)
+  
+  - [about](#about)
+  
+  - [User Story](#userstory)
+  
+  - [Accepatance Criteria](#acceptancecriteria)
+  -
+  - [Screenshots](#screenshots)
+  
+  - [Installation](#installation)
+  
+  - [License](#license)
+  
+  - [Test](#test)
+  
+  - [Contributers](#Contributers)
+  
+  - [Questions](#questions)
 
   ## About
   ${answers.about}
@@ -56,9 +67,9 @@ ${answers.contributers}
 ## Questions
 ${answers.questions}<br />
 <br />
- email me with any questions at${answers.email}<br />
+ email me ${answers.email}<br />
  <br />
-or find me on Github, :octocat: [${answers.userName}](https://github.com/${answers.userName})<br />
+ find me on Github,  [${answers.userName}](https://github.com/${answers.userName})<br />
 <br /> 
 
 This Readme was made by 🚀 ${answers.author} ⚡

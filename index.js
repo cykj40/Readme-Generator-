@@ -68,6 +68,11 @@ function promptUser(){
     message: "what is your name?",
    },
    {
+      type: "input",
+      message: "What is your email",
+      name:"email",
+   },
+   {
     type: "input",
     name: "userName",
     message: "What is your GitHub username?",
