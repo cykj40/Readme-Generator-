@@ -39,6 +39,10 @@
   ```
   ## video Preview
   
+
+https://user-images.githubusercontent.com/102045473/185802732-e43d39b1-0886-489e-a425-9d4c6957d8bf.mp4
+
+
   
   ## Screenshots
   ![Screenshot (25)](https://user-images.githubusercontent.com/102045473/185798954-f5c3111d-9c3c-4f7b-882a-41929562d2a4.png)
