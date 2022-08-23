@@ -7,6 +7,18 @@
   I created a command line readme generator. The terminal will take you through a series of questions about your project. When you are done answering the questions the application will create a proffesional looking readme.md that you could add to your coding project.
 
   ## Table of Contents
+  
+  * [Description](#description)
+  * [About](#description)
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#acceptance-criteria)
+  * [Video Preview](#video-preview)
+  * [Screenshots](#screenshots)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Test](#test)
+  * [Contributers](#contributers)
+  * [Questions](#questions)
  
 
   ## About
@@ -37,7 +49,7 @@
   WHEN I click on the links in the Table of Contents
   THEN I am taken to the corresponding section of the README   
   ```
-  ## video Preview
+  ## Video Preview
   
 
 https://user-images.githubusercontent.com/102045473/185802732-e43d39b1-0886-489e-a425-9d4c6957d8bf.mp4
