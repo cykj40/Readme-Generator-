@@ -1,16 +1,16 @@
 
-  <h1 align="center">Team Profile Generator</h1>
+  <h1 align="center">Note Taker App</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT--brightgreen)<br />
 
   ## Description 
-  Team generator is a commandline application. The application will prompt the user to answer questions about their individual team members. The application will then record your answers and inject them into a html template  which will help the user keep track of all of their team members.
+  An application that can be used to to write save and delete notes. 
 
   ## Table of Contents
  
 
   ## About
-  Team Profile Generator is a great way to keep track of your team members and have a little information about them. You have only the important pieces of information about your team. You have their names and how to contact them in person or through email. 
+  I created an app called Note Taker. The front end design was given to me by the Rutgers Coding Bootcamp. My job was to create the backend and to connect the two. Then deploy the app using Heroku.
 
   ## User Story
 
@@ -19,7 +19,7 @@
   ## Screenshots
  
   ## Installation
-  clone the repo git@github.com:cykj40/team-profile-generator.gitRun' NPM install' to install the dependencies run node index.js to run the application
+  hopefully just click on the URL of the deployed heroku app.
 
   ## License
 ![badge](https://img.shields.io/badge/license-MIT--brightgreen)
@@ -27,10 +27,10 @@
 This application is licensed by MIT
 
 ## Test 
-NPM Jest  
+None 
 
 ## Contributers
-Cyrus Jalili Khiabani
+Cyrus Khiabani
 
 ## Questions
 Contact Me<br />
