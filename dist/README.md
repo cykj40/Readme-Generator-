@@ -1,16 +1,16 @@
 
-  <h1 align="center">E-Commerce Back End</h1>
+  <h1 align="center">MVC Tech Blog</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT--brightgreen)<br />
 
   ## Description 
-  I built a back end for a ecommerce site. I took a working express.js api and configured it to use sequelize to interact with a mysql database.
+  I created a tech  blog using an MVC framework. For the client side I used Handlebars.js, css and Javascript.I created a mysql database. I connected the client side and the back end using express and routing via (get, post, put and delete). I deployed the app using Heroku.    
 
   ## Table of Contents
  
 
   ## About
-  This assigment really does show us the students how valuable sequelize actually is. The command line displayed the code it wrote in sql language and it was a lot and it was all stuff I would have had to write myself if I wasnt using sequelize. Sequelize has it's own complexities but once you get used to it, it's obviuosly the better way to go since we have been learning javascript all along.
+  It's a Tech Blog, on the homepage you can view posts, comment on post if you are logged in and navigate to the sign up page. Once you sign up for an account you could access the dashboard where you can create post of your own or delete or edit existing post that you have created.
 
   ## User Story
 
@@ -19,7 +19,7 @@
   ## Screenshots
  
   ## Installation
-  I dont think you can install it without my mysql password. The only thing you could do is contact me and have me make one for you, for $$ or Join the Rutgers Coding Bootcamp and they will teach you how to make one, as well as many other cool things. check out the link below. 
+  npm install npm seed npm run start
 
   ## License
 ![badge](https://img.shields.io/badge/license-MIT--brightgreen)
@@ -27,19 +27,19 @@
 This application is licensed by MIT
 
 ## Test 
-None
+insomnia for testing routes
 
 ## Contributers
-Cyrus Khiabani
+cyrus khiabani
 
 ## Questions
-Contact Me<br />
+contact me<br />
 <br />
  email me cyrusk81@gmail.com<br />
  <br />
  find me on Github,  [cykj40](https://github.com/cykj40)<br />
 <br /> 
 
-This Readme was made by 🚀 Cy ⚡
+This Readme was made by 🚀 cy ⚡
 
 
