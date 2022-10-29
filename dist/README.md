@@ -1,16 +1,16 @@
 
-  <h1 align="center">MVC Tech Blog</h1>
+  <h1 align="center">Social Network API</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT--brightgreen)<br />
 
   ## Description 
-  I created a tech  blog using an MVC framework. For the client side I used Handlebars.js, css and Javascript.I created a mysql database. I connected the client side and the back end using express and routing via (get, post, put and delete). I deployed the app using Heroku.    
+  This application is an API for a social network. Users are able to create an account, update a account and friend another user. Users are able to create comments, users are also able to react to other users comments as well.The database we use for the application is Mongodb with mongoose ODM.Expressjs for the routing and we also used insominia for  route testing.
 
   ## Table of Contents
  
 
   ## About
-  It's a Tech Blog, on the homepage you can view posts, comment on post if you are logged in and navigate to the sign up page. Once you sign up for an account you could access the dashboard where you can create post of your own or delete or edit existing post that you have created.
+  This web application is a backend setup for a social media network. We are using Mongodb for our database companies such as Meta and other social media giants also use Mongodb because of mongo's ability to handle huge amounts of unstructured data.
 
   ## User Story
 
@@ -19,7 +19,7 @@
   ## Screenshots
  
   ## Installation
-  npm install npm seed npm run start
+  1.Download the files from my github repo Social Media API
 
   ## License
 ![badge](https://img.shields.io/badge/license-MIT--brightgreen)
@@ -27,19 +27,19 @@
 This application is licensed by MIT
 
 ## Test 
-insomnia for testing routes
+Tested all restful api calls  with Insomnia
 
 ## Contributers
-cyrus khiabani
+Cyrus Jalili Khiabani
 
 ## Questions
-contact me<br />
+Contact Me<br />
 <br />
  email me cyrusk81@gmail.com<br />
  <br />
  find me on Github,  [cykj40](https://github.com/cykj40)<br />
 <br /> 
 
-This Readme was made by 🚀 cy ⚡
+This Readme was made by 🚀 Cy ⚡
 
 
