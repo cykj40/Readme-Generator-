@@ -1,16 +1,16 @@
 
-  <h1 align="center">pwa-text-editor</h1>
+  <h1 align="center">Weather Dashboard Project</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT--brightgreen)<br />
 
   ## Description 
-  I created a text editor that runs in the browser. The app is a single page application that meets pwa  criteria. The application also functions offline.
+  I created a weather  dashboard. You as a user can enter a city name in the united states. The application will return to you. The current temprature, wind speed, humidity and uv index for the city you enetered. In addition the app will also return a five day forecast for the city you selected.
 
   ## Table of Contents
  
 
   ## About
-  For this application I used indexedDB as the database. I used webpack to bundle the front end . I also used workbox to create a service worker that caches static assets. Finally I deployed the finished product to Heroku for  deployment.
+  This application was built using Html, css and javascript. The information you see diplayed in the application comes from the open weather map api. For this project I made various api calls to open wetaher map api to get the information you see displayed in the application.
 
   ## User Story
 
@@ -19,7 +19,7 @@
   ## Screenshots
  
   ## Installation
-  You have to clone my starter code. Then you have to open the root directory in your terminal. First you have to run npm install to install all dependencies. Then you have have to run the command npm run build. Then run npm run start, open your local host and click the install button. 
+  To use this project to lookup weather all you have to do is click on this link.
 
   ## License
 ![badge](https://img.shields.io/badge/license-MIT--brightgreen)
@@ -27,7 +27,7 @@
 This application is licensed by MIT
 
 ## Test 
-None
+none
 
 ## Contributers
 Cyrus Khiabani
