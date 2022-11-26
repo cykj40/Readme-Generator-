@@ -1,16 +1,16 @@
 
-  <h1 align="center">Password Generator</h1>
+  <h1 align="center">Book Search Engine</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT--brightgreen)<br />
 
   ## Description 
-  I created a random passowrd generator. This app runs in the browser when you click the generate password button. The application first asks you how long you would like your password to be you can choose a password bewtween 8-30 characters long. The app will then ask you if you would like to include Upper case letters, lowewr case letters, numbers and special characters. Once you answer all the questions the app will return a random password of your specified length.
+  This application is a book search engine. Users can create an account. Users can search for books and read descriptions about each book. Users can save the names and descriptions of books they want to read. Users can also remove books from their saved book's list. 
 
   ## Table of Contents
  
 
   ## About
-  The randon password generator features dynamically updated Html and CSS powered by Javascript.The app also has media screens in the css file so that it looks good no mattter what kind of device you are viewing the app on.
+  This project is a fully functional full stack MERN application. Some of the technoligies I used to make this app are as follows.
 
   ## User Story
 
@@ -19,7 +19,7 @@
   ## Screenshots
  
   ## Installation
-  no installation just follow this link.
+  go to my github clone the project run npm install. then run npm run develop
 
   ## License
 ![badge](https://img.shields.io/badge/license-MIT--brightgreen)
